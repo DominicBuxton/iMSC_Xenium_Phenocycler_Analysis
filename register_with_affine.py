@@ -3,6 +3,7 @@
 
 import numpy as np
 import pandas as pd
+import os
 from skimage import transform
 from skimage import io
 import tifffile
@@ -13,11 +14,11 @@ def read_points(filename):
     points = df[['axis-1', 'axis-0']].values
     return points
 
-fixed_points = read_points("D:/Dom/Fibrosis project/4th year data/xen_pheno_registration/systematising landmarks/Landmark csvs/50gt_xen_roi1.csv")
-moving_points = read_points("D:/Dom/Fibrosis project/4th year data/xen_pheno_registration/systematising landmarks/Landmark csvs/50gt_pheno_roi1.csv")
+fixed_points = read_points("path/to/fixed_landmarks.csv")
+moving_points = read_points("path/to/moving_landmarks.csv")
 
 #calculating the affine transformation
-def calculate_affine_transform(fixed_points, moving_points):
+def calculate_affine_transform(fixed_points, moving_points, results_file_path):
     fixed_points = np.array(fixed_points)
     moving_points = np.array(moving_points)
 
@@ -36,10 +37,15 @@ def calculate_affine_transform(fixed_points, moving_points):
     print(f"Max registration error: {max_error:.2f} pixels")
     print(f"\nAffine transformation matrix:")
     print(affine_matrix)
+    # Save results to file
+    with open(results_file_path, "w") as f:
+        f.write(f"Mean registration error: {mean_error:.2f} pixels\n")
+        f.write(f"Max registration error: {max_error:.2f} pixels\n")
     
+    print(f"\nResults saved to: {results_file_path}")
     return affine_matrix
 
-affine_matrix = calculate_affine_transform(fixed_points, moving_points)
+affine_matrix = calculate_affine_transform(fixed_points, moving_points, results_file_path = "path/to/save/registration_results.txt")
 
 
 #applying the affine transformation
@@ -61,8 +67,9 @@ def apply_affine_registration(input_path, affine_matrix, output_path):
     return registered_image
 
 
-input = "C:/Users/dbuxton/Desktop/reg_virtual_stack_test/input/pheno_C12.ome.tif"
-output_path ="C:/Users/dbuxton/Desktop/reg_virtual_stack_test/input/pheno_C12_R.ome.tif"
+input = "path/to/image.ome.tif"
+output_path = "path/to/registered_image.ome.tif"
 
 #Final usage
+affine_matrix = calculate_affine_transform(fixed_points, moving_points, results_file_path = "path/to/save/registration_results.txt")
 apply_affine_registration(input, affine_matrix, output_path)
