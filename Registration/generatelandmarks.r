@@ -1,18 +1,18 @@
 #generating landmark sets for systematic registration investigation
 
 #read in your ground truth landmark dataset
-xen_gtLandmarks = read.csv("path/to/landmarksfixed")
-pheno_gtLandmarks = read.csv("path/to/landmarksmoving")
+xen_gtLandmarks = read.csv("D:/Dom/Fibrosis project/4th year data/xen_pheno_registration/systematising landmarks/Landmark csvs/50gt_xen_roi1.csv")
+pheno_gtLandmarks = read.csv("D:/Dom/Fibrosis project/4th year data/xen_pheno_registration/systematising landmarks/Landmark csvs/50gt_pheno_roi1.csv")
 
 #specify the number of landmarks you want. You can create multiple sets with different numbers of landmarks
-num_landmarks = c(3, 5, 10, 15, 20)
+num_landmarks = c(5, 10 , 15, 30)
 
 #specify the folder you want to save your files to
-output_dir = "path/to/save/folder"
+output_dir = "D:/Dom/Fibrosis project/4th year data/xen_pheno_registration/systematising landmarks/Landmark csvs"
 
 #specify the naming convention of your files. By default they will be "output_dir + num_landmarks + xenname/phenoname"
-xenname = "_xen_mono_roi1.csv"
-phenoname = "_pheno_mono_roi1.csv"
+xenname = "_xen_spaced_roi1.csv"
+phenoname = "_pheno_spaced_roi1.csv"
 
 for (n in num_landmarks) {
   rkey = c()
