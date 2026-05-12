@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import tifffile as tif
+from pathlib import Path
 
 def create_xen_all(folder):
     """
@@ -8,7 +9,7 @@ def create_xen_all(folder):
       Ch1: DAPI
       Ch2: ATP_Cadherin_CD45
       Ch3: Cytoplasm stains (18s_RNA + AlphaSMA_Vimentin, clipped to dtype max)
-      default_save_path is 'folder/Path/xen_all.ome.tif'
+      default_save_path is 'folder/Path/xen_all.tiff'
     """
     dapi = tif.imread(os.path.join(folder, 'dapi.tif'))
     RNA  = tif.imread(os.path.join(folder, '18s_RNA.tif'))
@@ -31,8 +32,18 @@ def create_xen_all(folder):
         metadata={'axes': 'CYX'}
     )
 
-parent_folder = path/to/files
-for folder in os.listdir(parent_folder):
-    folder_path = os.path.join(parent_folder, folder)
-    create_xen_all(folder_path)
+#process a whole directory of directories
+parent_folder = Path(path/to/folders_with_images)
+
+failed = []
+for folder in parent_folder.glob("*"):
+    if folder.is_dir():
+        folder_path = os.path.join(parent_folder, folder)
+        try: 
+            create_xen_all(folder_path)
+        except:
+            failed.append(folder)
+        print(f'failed to create {len(failed)} images')
+        print(failed)
+
 
