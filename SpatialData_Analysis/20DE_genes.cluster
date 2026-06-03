@@ -1,0 +1,81 @@
+Top 20 DE genes for cluster 0: ['Dmkn', 'Krt2', 'Krt10', 'Cdsn', 'Krtdap', 'Hal', 'Flg', 'Dsc1', 'Pla2g2f', 'Ppl', 'Grhl3', 'Dsg1b', 'Krt78', 'Lipm', 'Dsp', 'Jup', 'Il1f9', 'Chil1', 'Egr3', 'Mprip']
+Top 20 DE genes for cluster 0, without Krt: ['Dmkn', 'Cdsn', 'Hal', 'Flg', 'Dsc1', 'Pla2g2f', 'Ppl', 'Grhl3', 'Dsg1b', 'Lipm', 'Dsp', 'Jup', 'Il1f9', 'Chil1', 'Egr3', 'Mprip']
+No. Krt markers in cluster = 4
+================================================================================
+Top 20 DE genes for cluster 1: ['Flg', 'Cdsn', 'Dmkn', 'Cpa4', 'Smpd3', 'Chil1', 'Krt78', 'Epn3', 'Sprr2d', 'Il1f9', 'Hip1r', 'Plk3', 'Krtdap', 'S100a9', 'Mxd1', 'Gba2', 'Furin', 'Esyt3', 'S100a8', 'Gm2a']
+Top 20 DE genes for cluster 1, without Krt: ['Flg', 'Cdsn', 'Dmkn', 'Cpa4', 'Smpd3', 'Chil1', 'Epn3', 'Sprr2d', 'Il1f9', 'Hip1r', 'Plk3', 'S100a9', 'Mxd1', 'Gba2', 'Furin', 'Esyt3', 'S100a8', 'Gm2a']
+No. Krt markers in cluster = 2
+================================================================================
+Top 20 DE genes for cluster 2: ['Krt2', 'Krt10', 'Dmkn', 'Krtdap', 'Dsp', 'Dsg1b', 'Jup', 'Trim29', 'Sfn', 'Dsc3', 'Dsg1a', 'Hspa1b', 'Serpinb5', 'Alox12e', 'Klf5', 'Evpl', 'Dsc1', 'Pla2g2f', 'Mafb', 'Hal']
+Top 20 DE genes for cluster 2, without Krt: ['Dmkn', 'Dsp', 'Dsg1b', 'Jup', 'Trim29', 'Sfn', 'Dsc3', 'Dsg1a', 'Hspa1b', 'Serpinb5', 'Alox12e', 'Klf5', 'Evpl', 'Dsc1', 'Pla2g2f', 'Mafb', 'Hal']
+No. Krt markers in cluster = 3
+================================================================================
+Top 20 DE genes for cluster 3: ['Krt5', 'Krt2', 'Krt15', 'Krt14', 'Krt10', 'Cd74', 'Plec', 'Dsp', 'Apoe', 'Dsc3', 'H2-Eb1', 'Dmkn', 'Fgfr2', 'Trim29', 'Klf5', 'Dst', 'Lmna', 'Itgb4', 'Krtdap', 'Fgfr3']
+Top 20 DE genes for cluster 3, without Krt: ['Cd74', 'Plec', 'Dsp', 'Apoe', 'Dsc3', 'H2-Eb1', 'Dmkn', 'Fgfr2', 'Trim29', 'Klf5', 'Dst', 'Lmna', 'Itgb4', 'Fgfr3']
+No. Krt markers in cluster = 6
+================================================================================
+Top 20 DE genes for cluster 4: ['Krt5', 'Krt14', 'S100a8', 'S100a9', 'Krt1', 'Krt6a', 'Sfn', 'Lmna', 'Anxa2', 'Fabp5', 'Hist2h2bb', 'Klf5', 'Fgfr3', 'Itgb4', 'Apoe', 'Dsp', 'Pkm', 'Dsc3', 'Sdc1', 'Cd44']
+Top 20 DE genes for cluster 4, without Krt: ['S100a8', 'S100a9', 'Sfn', 'Lmna', 'Anxa2', 'Fabp5', 'Hist2h2bb', 'Klf5', 'Fgfr3', 'Itgb4', 'Apoe', 'Dsp', 'Pkm', 'Dsc3', 'Sdc1', 'Cd44']
+No. Krt markers in cluster = 4
+================================================================================
+Top 20 DE genes for cluster 5: ['Krt5', 'Krt14', 'Krt2', 'Apoe', 'Klf5', 'Fgfr3', 'Krt10', 'Anxa2', 'Itgb4', 'Plec', 'Dsp', 'Lmna', 'Krt15', 'Dsc3', 'Sfn', 'Bcam', 'Jag2', 'Fgfr2', 'Trp63', 'Maf']
+Top 20 DE genes for cluster 5, without Krt: ['Apoe', 'Klf5', 'Fgfr3', 'Anxa2', 'Itgb4', 'Plec', 'Dsp', 'Lmna', 'Dsc3', 'Sfn', 'Bcam', 'Jag2', 'Fgfr2', 'Trp63', 'Maf']
+No. Krt markers in cluster = 5
+================================================================================
+Top 20 DE genes for cluster 6: ['Krt17', 'Krt15', 'Krt79', 'Apoe', 'Krt5', 'Rbp1', 'Sox9', 'Lrig1', 'C1qtnf12', 'Nfatc1', 'Krt6a', 'Aldh3a1', 'Sostdc1', 'Nfib', 'Runx1', 'Fgfr1', 'Adgra3', 'Moxd1', 'Chil1']
+Top 20 DE genes for cluster 6, without Krt: ['Apoe', 'Rbp1', 'Sox9', 'Lrig1', 'C1qtnf12', 'Nfatc1', 'Aldh3a1', 'Sostdc1', 'Nfib', 'Runx1', 'Fgfr1', 'Adgra3', 'Moxd1', 'Chil1']
+No. Krt markers in cluster = 5
+================================================================================
+Top 20 DE genes for cluster 7: ['Krt10', 'Krt1', 'Krt2', 'Sfn', 'Fabp5', 'Krtdap', 'Dsp', 'Dsc3', 'Krt14', 'Jup', 'Klf5', 'Dmkn', 'Trim29', 'Krt5', 'Dsg1b', 'Apoe', 'Krt16', 'Hspa1b', 'Mafb', 'S100a8']
+Top 20 DE genes for cluster 7, without Krt: ['Sfn', 'Fabp5', 'Dsp', 'Dsc3', 'Jup', 'Klf5', 'Dmkn', 'Trim29', 'Dsg1b', 'Apoe', 'Hspa1b', 'Mafb', 'S100a8']
+No. Krt markers in cluster = 7
+================================================================================
+Top 20 DE genes for cluster 8: ['Dcn', 'Col1a2', 'Col3a1', 'Vim', 'Col6a2', 'Col1a1', 'Mmp2', 'Lrp1', 'Col5a1', 'Fn1', 'Col6a3', 'Fbn1', 'Lum', 'Fstl1', 'C3', 'Bmp1', 'Ctsk', 'Tnxb', 'Prrx1', 'Plpp3']
+Top 20 DE genes for cluster 8, without Krt: ['Dcn', 'Col1a2', 'Col3a1', 'Vim', 'Col6a2', 'Col1a1', 'Mmp2', 'Lrp1', 'Col5a1', 'Fn1', 'Col6a3', 'Fbn1', 'Lum', 'Fstl1', 'C3', 'Bmp1', 'Ctsk', 'Tnxb', 'Prrx1', 'Plpp3']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 9: ['Far2', 'Cers4', 'Elovl4', 'Fabp5', 'Cidea', 'Msmo1', 'Tmem109', 'Apoe', 'Krt79', 'Plin2', 'Rtn3', 'Echdc1', 'Lss', 'Acly', 'Fasn', 'Acacb', 'Cd36', 'Cyb5a', 'Gpam', 'Hsd17b7']
+Top 20 DE genes for cluster 9, without Krt: ['Far2', 'Cers4', 'Elovl4', 'Fabp5', 'Cidea', 'Msmo1', 'Tmem109', 'Apoe', 'Plin2', 'Rtn3', 'Echdc1', 'Lss', 'Acly', 'Fasn', 'Acacb', 'Cd36', 'Cyb5a', 'Gpam', 'Hsd17b7']
+No. Krt markers in cluster = 1
+================================================================================
+Top 20 DE genes for cluster 10: ['Vim', 'Cd74', 'Ctss', 'Pltp', 'Dcn', 'Ccl8', 'Fcgr2b', 'H2-Eb1', 'F13a1', 'Mrc1', 'Grn', 'Cd163', 'Sirpa', 'Col3a1', 'Il10ra', 'Dab2', 'Syk', 'Csf1r', 'Ap2a2', 'Itgam']
+Top 20 DE genes for cluster 10, without Krt: ['Vim', 'Cd74', 'Ctss', 'Pltp', 'Dcn', 'Ccl8', 'Fcgr2b', 'H2-Eb1', 'F13a1', 'Mrc1', 'Grn', 'Cd163', 'Sirpa', 'Col3a1', 'Il10ra', 'Dab2', 'Syk', 'Csf1r', 'Ap2a2', 'Itgam']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 11: ['Tpsb2', 'Gata2', 'Kit', 'Clec10a', 'Vim', 'Ndst2', 'Slc6a4', 'Slc18a2', 'Itga2b', 'Cyp11a1', 'Kcnq1', 'Inpp5d', 'Cd55', 'Tpsab1', 'Adgre5', 'Plec', 'Dock2', 'Atp2a3', 'Plau', 'Myb']
+Top 20 DE genes for cluster 11, without Krt: ['Tpsb2', 'Gata2', 'Kit', 'Clec10a', 'Vim', 'Ndst2', 'Slc6a4', 'Slc18a2', 'Itga2b', 'Cyp11a1', 'Kcnq1', 'Inpp5d', 'Cd55', 'Tpsab1', 'Adgre5', 'Plec', 'Dock2', 'Atp2a3', 'Plau', 'Myb']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 12: ['Krt1', 'Krt10', 'Flg', 'Dmkn', 'Krtdap', 'Krt16', 'Dsc1', 'S100a8', 'Fabp5', 'Krt6b', 'Dsg1b', 'Krt78', 'S100a9', 'Cdsn', 'Hal', 'Pla2g2f', 'Blmh', 'Jup', 'Cd24a', 'Dsp']
+Top 20 DE genes for cluster 12, without Krt: ['Flg', 'Dmkn', 'Dsc1', 'S100a8', 'Fabp5', 'Dsg1b', 'S100a9', 'Cdsn', 'Hal', 'Pla2g2f', 'Blmh', 'Jup', 'Cd24a', 'Dsp']
+No. Krt markers in cluster = 6
+================================================================================
+Top 20 DE genes for cluster 13: ['Vim', 'Wif1', 'Eln', 'Fgfr3', 'Acan', 'Ccn2', 'Sox9', 'Col9a3', 'Col6a2', 'C4b', 'Prrx1', 'Frzb', 'Ppp1r1b', 'Gpc6', 'Fmod', 'S100b', 'Trpv4', 'Adamts14', 'Smoc2', 'Dnm1']
+Top 20 DE genes for cluster 13, without Krt: ['Vim', 'Wif1', 'Eln', 'Fgfr3', 'Acan', 'Ccn2', 'Sox9', 'Col9a3', 'Col6a2', 'C4b', 'Prrx1', 'Frzb', 'Ppp1r1b', 'Gpc6', 'Fmod', 'S100b', 'Trpv4', 'Adamts14', 'Smoc2', 'Dnm1']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 14: ['Vim', 'Egfl7', 'Col4a1', 'Eng', 'Epas1', 'Pecam1', 'Mcam', 'Podxl', 'Plvap', 'Cdh5', 'Ccl21a', 'Col18a1', 'Ece1', 'Col4a2', 'Crip1', 'Adgrf5', 'Hspg2', 'Vwf', 'Tgm2', 'Acta2']
+Top 20 DE genes for cluster 14, without Krt: ['Vim', 'Egfl7', 'Col4a1', 'Eng', 'Epas1', 'Pecam1', 'Mcam', 'Podxl', 'Plvap', 'Cdh5', 'Ccl21a', 'Col18a1', 'Ece1', 'Col4a2', 'Crip1', 'Adgrf5', 'Hspg2', 'Vwf', 'Tgm2', 'Acta2']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 15: ['Mpz', 'Mbp', 'Vim', 'Smtn', 'Dcn', 'Rap1gap', 'Cryab', 'Hspg2', 'Cnp', 'Sorbs1', 'Sema6c', 'Mapk8ip1', 'Carns1', 'Col1a2', 'Sema3b', 'Lamb1', 'Gldn', 'Reln', 'Cldn19']
+Top 20 DE genes for cluster 15, without Krt: ['Mpz', 'Mbp', 'Vim', 'Smtn', 'Dcn', 'Rap1gap', 'Cryab', 'Hspg2', 'Cnp', 'Sorbs1', 'Sema6c', 'Mapk8ip1', 'Carns1', 'Col1a2', 'Sema3b', 'Lamb1', 'Gldn', 'Reln', 'Cldn19']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 16: ['Cfd', 'Pnpla2', 'Plin1', 'Vim', 'C4b', 'Lpl', 'Lipe', 'Apoe', 'Pnpla3', 'Ghr', 'Col4a1', 'Adipoq', 'Cd36', 'Dcn', 'Mcam', 'Fasn', 'Acsl1', 'Col3a1', 'C3', 'Lrp1']
+Top 20 DE genes for cluster 16, without Krt: ['Cfd', 'Pnpla2', 'Plin1', 'Vim', 'C4b', 'Lpl', 'Lipe', 'Apoe', 'Pnpla3', 'Ghr', 'Col4a1', 'Adipoq', 'Cd36', 'Dcn', 'Mcam', 'Fasn', 'Acsl1', 'Col3a1', 'C3', 'Lrp1']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 17: ['Myh1', 'Cryab', 'Actn2', 'Ttn', 'Des', 'Coq8a', 'Myh4', 'Aldoa', 'Ryr1', 'Klhl41', 'Trdn', 'Casq1', 'Scn4b', 'Cacna1s', 'Myh2', 'Bin1', 'Ndrg2', 'Myf6', 'Atp2a2', 'Scn4a']
+Top 20 DE genes for cluster 17, without Krt: ['Myh1', 'Cryab', 'Actn2', 'Ttn', 'Des', 'Coq8a', 'Myh4', 'Aldoa', 'Ryr1', 'Klhl41', 'Trdn', 'Casq1', 'Scn4b', 'Cacna1s', 'Myh2', 'Bin1', 'Ndrg2', 'Myf6', 'Atp2a2', 'Scn4a']
+No. Krt markers in cluster = 0
+================================================================================
+Top 20 DE genes for cluster 18: ['Krt1', 'Fabp5', 'S100a8', 'Krt16', 'S100a9', 'Krt6b', 'Krt14', 'Krtdap', 'Sfn', 'Krt10', 'Krt6a', 'Dmkn', 'Dsp', 'Krt17', 'Jup', 'Dsg1b', 'Serpinb3a', 'Dsc3', 'Sdc1', 'Klf5']
+Top 20 DE genes for cluster 18, without Krt: ['Fabp5', 'S100a8', 'S100a9', 'Sfn', 'Dmkn', 'Dsp', 'Jup', 'Dsg1b', 'Serpinb3a', 'Dsc3', 'Sdc1', 'Klf5']
+No. Krt markers in cluster = 8
+================================================================================
+Top 20 DE genes for cluster 19: ['S100a9', 'S100a8', 'Krt6b', 'Krt16', 'Sprr2d', 'Dmkn', 'Krt6a', 'Krt1', 'Cdsn', 'Klk6', 'Sprr2h', 'Krtdap', 'Krt17', 'Blmh', 'Fabp5', 'Il1f9', 'Chil1', 'Serpinb3a', 'Flg', 'Dsc1']
+Top 20 DE genes for cluster 19, without Krt: ['S100a9', 'S100a8', 'Sprr2d', 'Dmkn', 'Cdsn', 'Klk6', 'Sprr2h', 'Blmh', 'Fabp5', 'Il1f9', 'Chil1', 'Serpinb3a', 'Flg', 'Dsc1']
+No. Krt markers in cluster = 6
+================================================================================
+8
